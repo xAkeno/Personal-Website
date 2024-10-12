@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/guest.css">
+    <link rel="icon" type="image/jpg" href="/image/black.png">
+    <title>Guest Book</title>
+</head>
+<body>
+    <div class="up" >
+        <a href="#menu"><img src="/image/arrow-up.png" height="50px"></a>
+    </div>
+    <div class="container">
+        <div class="menu-top">
+            <nav class="menu" id="menu">
+                <a href="/html/index.html"><img src="/image/black.png" alt="logo" class="logo"></a>
+                <ul>
+                    <!-- <li><a href=""><img src="/image/black.png" alt="logo" class="logo"></a></li> -->
+                    <li><a href="/html/guest.html">Guest Book</a></li>
+                    <li><a href="/html/project.html">Projects</a></li>
+                    <li><a href="/html/about.html">About</a></li>
+                    <li><a href="/html/uses.html">Uses</a></li>
+                </ul>
+            </nav>
+            <div class="menu-box">
+                <div>
+                    <h1>Guest Book</h1>
+                    <p style="font-family: Verdana, Geneva, Tahoma, sans-serif;">This is a page i created to comment what they feel on my website, thought and communicate with others.</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="center">
+            <div class="pin">
+                <div class="pin-box">
+                    <span><img src="/image/pin.png" alt="pin">Pinned</span>
+                    <br>
+                    <p>Hello! Thank you for visiting my personal website. I hope you enjoy exploring it. Feel free to leave a message and share your thoughts—I’d love to hear how you feel about it!</p>
+                </div>
+            </div>
+            <div class="comment-input">
+                <div class="input-box" id="input-box">
+                    <button class="click" onclick="show()">Post your thought</button>
+                    <div class="above">
+                        <div class="guest">
+                            <span style="color: whitesmoke;text-align: center; font-family:Arial, Helvetica, sans-serif;"><strong>Hello!</strong> I’m glad you're here as a guest. Feel free to explore my work and projects!</span>
+                            <input type="text" placeholder="What will be your name" class="name" id="name">
+                            <button onclick="hide() "style="background-color: #4158D0;background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);border: none; border-radius: 10px;cursor: pointer;height: 2rem;font-weight:bold;">Continue as Guest</button>
+                        </div>
+                        <div class="post" >
+                            <div >
+                                <img src="/image/guest.jpg" alt="profile">
+                                <span id="guest-name"></span>
+                            </div>                           
+                                <input type="text" placeholder="Comment what you think about my personal web" class="word" id="words">
+                                <input type="submit" class="mit" value="Post" id="pop" onclick="op()" style="padding:5px;">                      
+                        </div>
+                        <!-- <div class="log">
+                            <span style="color: whitesmoke;"><strong>Welcome!</strong> As a registered user, you can like and customize your profile to connect with others. Enjoy exploring!</span>
+                        
+                        </div> -->
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="comment">
+                <div class="box">
+                    <div>
+                        <img src="/image/chrome.png" alt="profile pic">
+                        <p>Clark kent B. Raguhos<br>July 5 2005</p>
+                        <span class="ar">
+                            <img src="/image/arrow-up.png" alt="Like" style="height: 40px;">
+                        </span>
+                    </div>
+                    <p>Hello, test test test</p>
+                </div>                
+            </div>
+        </div>
+        <footer class="main-foot">
+            <div class="foot" >
+                <div>
+                    <a href="/html/index.html">Home</a>
+                    <a href="/html/about.html">About me</a>
+                    <a href="/html/guest.html">Guest Book</a>
+                </div>
+                <div>
+                    <a href="/html/project.html">Project</a>
+                    <a href="/html/uses.html">Uses</a>
+                    <a href="/html/index.html">Links</a>
+                </div>
+                <div >
+                    <a href="https://www.facebook.com/profile.php?id=100012184989320" target="_blank">Facebook</a>
+                    <a href="https://github.com/xAkeno" target="_blank">GitHub</a>
+                    <a href="https://steamcommunity.com/profiles/76561198333664827/" target="_blank">Steam</a>
+                </div>          
+            </div>    
+            <footer class="fot">
+                <p>Copyright © 2024, Designed by Clark, Inspired by the creativity of HongHong.</p>
+            </footer>
+        </footer>
+    </div>
+    <script src="/script/guest.js"></script>
+</body>
+</html>

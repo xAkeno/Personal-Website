@@ -1,0 +1,540 @@
+
+body{
+    background-color: #393939;
+    background-image: url('/image/gradient-background-bottom.png'),url('/image/gradient-background-top.png');
+    background-position: center bottom, center top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 75rem;
+}
+.container{
+    height: 100rem;
+}
+.logo{
+    height: 3rem;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    background-color: #39393986;
+    padding: 5px;
+    padding-right: 10px;
+    width: 45%;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #5c5b5b86;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li {
+    margin-left: 25px;
+}
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/*up*/
+.up{
+    background-color: rgb(88, 87, 87);
+    border-radius: 50%;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 20px;
+    right: 20px;
+}
+.up:hover{
+    background-color: rgb(110, 110, 110);
+}
+/*Center*/
+.center{
+    width: 45%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+.intro{   
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+}
+.intro-logo img{
+    border-radius: 500px;
+    box-shadow: 1px 1px 25px rgb(224, 224, 224);
+}
+.intro-letter{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(228, 228, 228);
+}
+
+/* ABOUT ME*/
+
+.about h1{
+    text-align: center;
+}
+.about{
+    height: 30rem;
+    width: 100%;
+}
+.content{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+}
+.left{
+    width: 100%;
+}
+.left div{
+    height: 45%;
+    border-radius: 15px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.map{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+.left div span{
+    position: absolute;
+}
+.mark{
+    height: 30px;
+}
+.maplink::before{
+    color: black;
+    font-size: 15;
+    content: "Blk 2 Lot 2 Palawan st";
+}
+
+.right{
+    width: 100%;
+}
+.bottom-right{
+    height: 30%;
+    display: flex;
+    gap: 10px;
+}
+.bottom-right div{
+    width: 100%;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bottom-right div span{
+    font-size: 18px;
+    color: rgb(202, 202, 202);
+}
+
+.bottom-right div:nth-last-child(1){
+    
+}
+.bottom-right div:nth-last-child(2){
+
+}
+.bottom{
+    padding: 10px;
+}
+.bottom p{
+    color: whitesmoke;
+}
+.bottom img{
+    height: 20px;
+    margin-right: 10px;
+
+}
+.top span{
+    padding: 5px;
+}
+.top-right{
+    border-radius: 15px;
+    height: 16rem;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    padding: 25px;
+}
+
+.top-right div{
+    height: 4rem;
+    width: 4rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+}
+.top-right div:hover img{ 
+    height: 3.3rem;
+    width: 3.3rem;
+}
+.top-right div img{
+    height: 3rem;
+    width: 3rem;
+}
+
+.button-about{
+    display: flex;
+    justify-content: center;
+}
+.button-about button:hover{
+    background-color: #7a7979;
+}
+.button-project button:hover{
+    background-color: #7a7979;
+}
+.button-about button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: rgb(207, 207, 207);
+    background-color: #393939;
+    border-style: solid;
+    border-color: rgb(161, 161, 161);
+    border-width: 1px;
+}
+/*Project*/
+.project-content{
+    display: flex;
+    height: 20rem;
+    gap: 10px;
+}
+.project-content div{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gray;
+}
+.button-project{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.button-project button{
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    color: rgb(207, 207, 207);
+    background-color: #393939;
+    border-style: solid;
+    border-color: rgb(161, 161, 161);
+    border-width: 1px;
+}
+.project-left{
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.project-left:hover img{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+.project-left img{
+    height: 75%;
+    width: 85%;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 10px;
+}
+
+.project-right{
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+}
+
+.project-right{
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.project-right:hover img{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.project-right img{
+    height: 75%;
+    width: 50%;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 5px;
+}
+
+.project-right{
+    background-image: url('/image/background.jpg');
+    background-size: cover;
+}
+/*button*/
+.aboutH:hover{
+    cursor:pointer;
+}
+
+/*Email*/
+.email-content{
+    margin-top: 15px;
+    color: rgb(207, 207, 207);
+    border-style: solid;
+    border-color: gray;
+    border-width: 1px;
+    height: 10rem;
+    border-radius: 5px;
+    margin-bottom: 7rem;
+}
+.email-content h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email-content button{
+    height: 2.5rem;
+    width: 5rem;
+    background-color: #393939;
+    border-style: solid;
+    border-color: rgb(161, 161, 161);
+    color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+.email-content button:hover{
+    transform: translateY(-5px);   
+}
+
+/*Footer #39393981*/
+.main-foot{
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+.foot{
+    width: 100%;
+    height: 10rem;
+    background-color: #3939399a;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.foot div{
+    height: 8rem;
+    width: 20rem;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.foot div a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.foot div a:hover{
+    color: rgb(179, 179, 179);
+}
+.fot{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 2.5rem;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: whitesmoke; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;    
+}
+
+@media (max-width: 1275px){
+    .maplink::before{
+        content: "Palawant st";
+    }
+    .container{
+        margin-bottom: 5rem;
+    }
+}
+@media (max-width: 1130px){
+    .container{
+        margin-bottom: 10rem;
+        height: 130rem;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30rem;
+    }
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .intro img{
+
+    }
+}
+@media (max-width: 1115px){
+    .container{
+        margin-bottom: 15rem;
+        height: 130rem;
+    }
+}
+@media (max-width: 865px){
+    .project-content{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30rem;
+    }
+    .project-content div{
+        width: 100%;
+        height: 20rem;
+    }
+    .container{
+        margin-bottom: 10rem;
+        height: 147rem;
+    }
+}
+@media (max-width: 755px){
+    .top-right{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        height: 19rem;
+    }
+}
+@media (max-width: 615px){
+    .container{
+        margin-bottom: 15rem;
+    }
+    .menu ul{
+        
+    }
+}
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes appear2{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes appearlogo{
+    from{
+        opacity: 0;
+        scale: 0.1;
+    }
+    to{
+        opacity: 1;
+        scale:1;
+    }
+}
+@keyframes appearmes{
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.intro-logo{
+    animation: appearlogo 0.4s linear;
+    animation-range: entry 0%;
+}
+.bottom{
+    animation: appear 0.3s linear;
+    animation-range: entry 0%;
+}
+.top{
+    animation: appear 0.3s linear;
+    animation-range: entry 0%;
+}
+.right{
+    animation: appear2 0.3s linear;
+    animation-range: entry 0%;
+}
+.project-left{
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.project-right{
+    animation: appear2 linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.email-content{
+    animation: appearmes linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 30%;
+}
+.intro-letter{
+    animation: appear 0.3s linear;
+}
+@media (max-width:679px){
+    .menu{
+        width: 90%;
+    }
+}
+@media (max-width:579px){
+    .menu{
+        width: 90%;
+    }
+    .center{
+        width: 90%;
+    }
+    .main-foot{
+        overflow-y: hidden;
+    }
+    .fot{
+        font-size: 13px;
+    }
+    .button-about{
+        margin-top: 37rem;
+    }
+    .email{
+        margin-top: 2rem;
+    }
+}
